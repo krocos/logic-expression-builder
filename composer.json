@@ -1,0 +1,22 @@
+{
+    "name": "krocos/logic-expression-builder",
+    "description": "Logic expression builder",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Balin Vladimir",
+            "email": "krocos@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Krocos\\LogicExpressionBuilder\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
