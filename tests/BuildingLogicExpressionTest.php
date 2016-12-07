@@ -41,7 +41,7 @@ class BuildingLogicExpressionTest extends \PHPUnit_Framework_TestCase
             }
         };
 
-        $this->assertTrue(
+        $this->assertFalse(
             (new Builder())
                 ->x(true)
                 ->andX($namCompare->setNumber(100)->toBool())
