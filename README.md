@@ -1,7 +1,7 @@
 # Logic expression builder
 
 ## About
-Make its possible to build sophisticated logic expressions that can simplifies to bool.
+Makes it possible to build a sophisticated logic expression that can be simplified to a bool value.
 
 ## Install
 ```bash
